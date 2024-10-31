@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <link href='/style.css' rel='stylesheet'>
+</head>
+<body>
+  
+  <h2>Hitung luas persegi</h2>
+  <form>
+    <label>Nilai panjang</label>
+    <input type="text" id="nLB">
+
+    <label>Nilai lebar</label>
+    <input type="text" id="nPJ">
+
+  <button type="button" onclick="hitungluas();" class="btnhitung">Hitung luas</button>
+ </form>
+  
+  <script>
+   function hitungluas(){
+    let pj = document.getElementById("nPJ").value 
+    let lb = document.getElementById("nLB").value 
+
+    console.log("nilai dari panjang: "+ pj +"; Nilai Lebar: "+ lb)
+   }
+  </script>
+  
+
+</body>
+</html>
